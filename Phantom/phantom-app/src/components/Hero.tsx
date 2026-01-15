@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="grid md:grid-cols-2 items-center py-20 px-8 max-w-[1400px] mx-auto gap-16 relative overflow-x-hidden min-h-[80vh]">
+    <section className="grid md:grid-cols-2 items-center py-20 px-12 lg:px-24 xl:px-32 2xl:px-40 gap-16 relative min-h-[80vh] w-full">
       
       {/* Horizontal Animated Line - Behind All Content */}
       <div className="absolute top-1/2 left-0 right-0 h-[1px] pointer-events-none" style={{ zIndex: 0, width: '100vw', left: '50%', transform: 'translateX(-50%)' }}>
@@ -116,7 +116,7 @@ const Hero = () => {
       </div>
 
       {/* Left Column: Text & Buttons */}
-      <div className="flex flex-col gap-8 relative animate-fade-in-up" style={{ zIndex: 10 }}>
+      <div className="flex flex-col gap-8 relative animate-fade-in-up md:ml-24 lg:ml-32 xl:ml-40 2xl:ml-48" style={{ zIndex: 10 }}>
         
         {/* Badge removed */}
 

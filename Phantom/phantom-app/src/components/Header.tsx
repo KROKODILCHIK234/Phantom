@@ -26,10 +26,10 @@ const Header = () => {
           <div className="absolute -top-[100px] right-1/4 w-[500px] h-[100px] bg-blue-600/20 blur-[100px] rounded-full"></div>
       </div>
 
-      <header className="flex items-center justify-between py-4 px-8 max-w-[1400px] mx-auto w-full relative z-10">
+      <header className="flex items-center justify-between py-4 px-12 lg:px-24 xl:px-32 2xl:px-40 w-full relative z-10">
         
         {/* Logo Section with Integrated Animation */}
-        <div className="flex items-center gap-4 cursor-pointer group z-10 relative">
+        <div className="flex items-center gap-4 cursor-pointer group z-10 relative ml-8 md:ml-16 lg:ml-24 xl:ml-32">
           
           {/* Logo Placeholder & Animation Origin */}
           <div className="relative w-10 h-10 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
